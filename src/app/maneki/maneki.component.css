@@ -4,7 +4,7 @@
     .filtro-bn{
         background-repeat: no-repeat!important;
         background-position: center!important;
-        background-attachment:fixed!important;
+        background-attachment:scroll!important;
         background-size: unset!important;
     }
 
@@ -17,7 +17,7 @@
     .filtro-bn{
         background-repeat: no-repeat!important;
         background-position: center!important;
-        background-attachment:fixed!important;
+        background-attachment:scroll!important;
         background-size: unset!important;
     }
 
