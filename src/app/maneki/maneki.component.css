@@ -1,10 +1,88 @@
+
+
+@media (min-width:320px)  {
+    .filtro-bn{
+        background-repeat: no-repeat!important;
+        background-position: center!important;
+        background-attachment:fixed!important;
+        background-size: unset!important;
+    }
+
+    .margin-maneki{
+        padding: 0px;
+    }
+}
+
+@media (min-width:481px) {
+    .filtro-bn{
+        background-repeat: no-repeat!important;
+        background-position: center!important;
+        background-attachment:fixed!important;
+        background-size: unset!important;
+    }
+
+    .margin-maneki{
+        padding: 0px;
+    }
+}
+
+@media (min-width:641px)  {
+    .filtro-bn{
+        background-size: cover!important;
+        background-repeat: no-repeat!important;
+        background-size:100% 100%!important;
+        background-attachment: unset!important;
+    }
+
+    .margin-maneki{
+        padding: 0px;
+    }
+}
+
+@media (min-width:961px)  {
+    .filtro-bn{
+        background-size: cover!important;
+        background-repeat: no-repeat!important;
+        background-size:100% 100%!important;
+        background-attachment: unset!important;
+    }
+
+    .margin-maneki{
+        padding: 50px;
+    }
+}
+
+@media (min-width:1025px) {
+    .filtro-bn{
+        background-size: cover!important;
+        background-repeat: no-repeat!important;
+        background-size:100% 100%!important;
+        background-attachment: unset!important;
+    }
+
+    .margin-maneki{
+        padding: 100px;
+    }
+}
+
+@media (min-width:1281px) {
+    .filtro-bn{
+        background-size: cover!important;
+        background-repeat: no-repeat!important;
+        background-size:100% 100%!important;
+        background-attachment: unset!important;
+    }
+
+    .margin-maneki{
+        padding: 200px;
+    }
+}
+
+
 .filtro-bn{
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     background-image: url("../../assets/img/img1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size:100% 100%;
     width: 100%;
     min-height: 400px;
     margin: 2px;
