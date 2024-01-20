@@ -11,6 +11,22 @@
     .margin-maneki{
         padding: 0px;
     }
+
+    .mv-1000{
+        min-height: 500px!important;
+    }
+
+    .mv-600{
+        min-height: 300px!important;
+    }
+
+    .mv-400{
+        min-height: 200px!important;
+    }
+
+    .mv-350{
+        min-height: 175px!important;
+    }
 }
 
 @media (min-width:481px) {
@@ -23,6 +39,22 @@
 
     .margin-maneki{
         padding: 0px;
+    }
+
+    .mv-1000{
+        min-height: 500px!important;
+    }
+
+    .mv-600{
+        min-height: 300px!important;
+    }
+
+    .mv-400{
+        min-height: 200px!important;
+    }
+
+    .mv-350{
+        min-height: 175px!important;
     }
 }
 
@@ -37,6 +69,22 @@
     .margin-maneki{
         padding: 0px;
     }
+
+    .mv-1000{
+        min-height: 1000px!important;
+    }
+
+    .mv-600{
+        min-height: 600px!important;
+    }
+
+    .mv-400{
+        min-height: 400px!important;
+    }
+
+    .mv-350{
+        min-height: 300px!important;
+    }
 }
 
 @media (min-width:961px)  {
@@ -49,6 +97,22 @@
 
     .margin-maneki{
         padding: 50px;
+    }
+
+    .mv-1000{
+        min-height: 1000px!important;
+    }
+
+    .mv-600{
+        min-height: 600px!important;
+    }
+
+    .mv-400{
+        min-height: 400px!important;
+    }
+
+    .mv-350{
+        min-height: 300px!important;
     }
 }
 
@@ -63,6 +127,22 @@
     .margin-maneki{
         padding: 100px;
     }
+
+    .mv-1000{
+        min-height: 1000px!important;
+    }
+
+    .mv-600{
+        min-height: 600px!important;
+    }
+
+    .mv-400{
+        min-height: 400px!important;
+    }
+
+    .mv-350{
+        min-height: 300px!important;
+    }
 }
 
 @media (min-width:1281px) {
@@ -75,6 +155,22 @@
 
     .margin-maneki{
         padding: 200px;
+    }
+
+    .mv-1000{
+        min-height: 1000px!important;
+    }
+
+    .mv-600{
+        min-height: 600px!important;
+    }
+
+    .mv-400{
+        min-height: 400px!important;
+    }
+
+    .mv-350{
+        min-height: 300px!important;
     }
 }
 
@@ -390,4 +486,9 @@
     -webkit-filter: none!important;
     filter: none!important;
     background-image: url("../../assets/gif/30.gif");
+}
+
+.max-width{
+    max-width: 1750px;
+    margin: auto;
 }
