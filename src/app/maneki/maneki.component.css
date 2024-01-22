@@ -1,60 +1,74 @@
-
-
 @media (min-width:320px)  {
     .filtro-bn{
+        background-size: cover!important;
         background-repeat: no-repeat!important;
-        background-position: center!important;
-        background-attachment:scroll!important;
-        background-size: unset!important;
+        background-size:100% 100%!important;
+        background-attachment: unset!important;
     }
 
     .margin-maneki{
-        padding: 0px;
+        padding: 20px;
     }
 
     .mv-1000{
-        min-height: 500px!important;
-    }
-
-    .mv-600{
-        min-height: 300px!important;
-    }
-
-    .mv-400{
         min-height: 200px!important;
     }
 
+    .mv-600{
+        min-height: 100px!important;
+    }
+
+    .mv-500{
+        min-height: 125px!important;
+    }
+
+    .mv-400{
+        min-height: 50px!important;
+    }
+
     .mv-350{
-        min-height: 175px!important;
+        min-height: 40px!important;
+    }
+
+    .mt20{
+        margin-top: 0px;
     }
 }
 
 @media (min-width:481px) {
     .filtro-bn{
+        background-size: cover!important;
         background-repeat: no-repeat!important;
-        background-position: center!important;
-        background-attachment:scroll!important;
-        background-size: unset!important;
+        background-size:100% 100%!important;
+        background-attachment: unset!important;
     }
 
     .margin-maneki{
-        padding: 0px;
+        padding: 20px;
     }
 
     .mv-1000{
-        min-height: 500px!important;
+        min-height: 210px!important;
     }
 
     .mv-600{
-        min-height: 300px!important;
+        min-height: 110px!important;
+    }
+
+    .mv-500{
+        min-height: 135px!important;
     }
 
     .mv-400{
-        min-height: 200px!important;
+        min-height: 60px!important;
     }
 
     .mv-350{
-        min-height: 175px!important;
+        min-height: 50px!important;
+    }
+
+    .mt20{
+        margin-top: 0px;
     }
 }
 
@@ -67,23 +81,31 @@
     }
 
     .margin-maneki{
-        padding: 0px;
+        padding: 20px;
     }
 
     .mv-1000{
-        min-height: 1000px!important;
+        min-height: 260px!important;
     }
 
     .mv-600{
-        min-height: 600px!important;
+        min-height: 170px!important;
+    }
+
+    .mv-500{
+        min-height: 190px!important;
     }
 
     .mv-400{
-        min-height: 400px!important;
+        min-height: 110px!important;
     }
 
     .mv-350{
-        min-height: 300px!important;
+        min-height: 100px!important;
+    }
+
+    .mt20{
+        margin-top: 0px;
     }
 }
 
@@ -100,19 +122,27 @@
     }
 
     .mv-1000{
-        min-height: 1000px!important;
-    }
-
-    .mv-600{
         min-height: 600px!important;
     }
 
+    .mv-600{
+        min-height: 360px!important;
+    }
+
+    .mv-500{
+        min-height: 300px!important;
+    }
+
     .mv-400{
-        min-height: 400px!important;
+        min-height: 240px!important;
     }
 
     .mv-350{
-        min-height: 300px!important;
+        min-height: 180px!important;
+    }
+
+    .mt20{
+        margin-top: -20px;
     }
 }
 
@@ -129,19 +159,27 @@
     }
 
     .mv-1000{
-        min-height: 1000px!important;
-    }
-
-    .mv-600{
         min-height: 600px!important;
     }
 
+    .mv-600{
+        min-height: 360px!important;
+    }
+
+    .mv-500{
+        min-height: 300px!important;
+    }
+
     .mv-400{
-        min-height: 400px!important;
+        min-height: 240px!important;
     }
 
     .mv-350{
-        min-height: 300px!important;
+        min-height: 180px!important;
+    }
+
+    .mt20{
+        margin-top: -20px;
     }
 }
 
@@ -158,27 +196,35 @@
     }
 
     .mv-1000{
-        min-height: 1000px!important;
-    }
-
-    .mv-600{
         min-height: 600px!important;
     }
 
+    .mv-600{
+        min-height: 360px!important;
+    }
+
+    .mv-500{
+        min-height: 300px!important;
+    }
+
     .mv-400{
-        min-height: 400px!important;
+        min-height: 240px!important;
     }
 
     .mv-350{
-        min-height: 300px!important;
+        min-height: 180px!important;
     }
+
+    .mt20{
+        margin-top: -20px;
+    }
+
 }
 
 
 .filtro-bn{
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    background-image: url("../../assets/img/img1.png");
     width: 100%;
     min-height: 400px;
     margin: 2px;
@@ -186,123 +232,123 @@
 }
 
 .img1{
-    background-image: url("../../assets/img/img1.png");
+    background-image: url("../../assets/img/img1.webp");
 }
 
 .img2{
-    background-image: url("../../assets/img/img2.png");
+    background-image: url("../../assets/img/img2.webp");
 }
 
 .img3{
-    background-image: url("../../assets/img/img3.png");
+    background-image: url("../../assets/img/img3.webp");
 }
 
 .img4{
-    background-image: url("../../assets/img/img4.png");
+    background-image: url("../../assets/img/img4.webp");
 }
 
 .img5{
-    background-image: url("../../assets/img/img5.png");
+    background-image: url("../../assets/img/img5.webp");
 }
 
 .img6{
-    background-image: url("../../assets/img/img6.png");
+    background-image: url("../../assets/img/img6.webp");
 }
 
 .img7{
-    background-image: url("../../assets/img/img7.png");
+    background-image: url("../../assets/img/img7.webp");
 }
 
 .img8{
-    background-image: url("../../assets/img/img8.png");
+    background-image: url("../../assets/img/img8.webp");
 }
 
 .img9{
-    background-image: url("../../assets/img/img9.png");
+    background-image: url("../../assets/img/img9.webp");
 }
 
 .img10{
-    background-image: url("../../assets/img/img10.png");
+    background-image: url("../../assets/img/img10.webp");
 }
 
 .img11{
-    background-image: url("../../assets/img/img11.png");
+    background-image: url("../../assets/img/img11.webp");
 }
 
 .img12{
-    background-image: url("../../assets/img/img12.png");
+    background-image: url("../../assets/img/img12.webp");
 }
 
 .img13{
-    background-image: url("../../assets/img/img13.png");
+    background-image: url("../../assets/img/img13.webp");
 }
 
 .img14{
-    background-image: url("../../assets/img/img14.png");
+    background-image: url("../../assets/img/img14.webp");
 }
 
 .img15{
-    background-image: url("../../assets/img/img15.png");
+    background-image: url("../../assets/img/img15.webp");
 }
 
 .img16{
-    background-image: url("../../assets/img/img16.png");
+    background-image: url("../../assets/img/img16.webp");
 }
 
 .img17{
-    background-image: url("../../assets/img/img17.png");
+    background-image: url("../../assets/img/img17.webp");
 }
 
 .img18{
-    background-image: url("../../assets/img/img18.png");
+    background-image: url("../../assets/img/img18.webp");
 }
 
 .img19{
-    background-image: url("../../assets/img/img19.png");
+    background-image: url("../../assets/img/img19.webp");
 }
 
 .img20{
-    background-image: url("../../assets/img/img20.png");
+    background-image: url("../../assets/img/img20.webp");
 }
 
 .img21{
-    background-image: url("../../assets/img/img21.png");
+    background-image: url("../../assets/img/img21.webp");
 }
 
 .img22{
-    background-image: url("../../assets/img/img22.png");
+    background-image: url("../../assets/img/img22.webp");
 }
 
 .img23{
-    background-image: url("../../assets/img/img23.png");
+    background-image: url("../../assets/img/img23.webp");
 }
 
 .img24{
-    background-image: url("../../assets/img/img24.png");
+    background-image: url("../../assets/img/img24.webp");
 }
 
 .img25{
-    background-image: url("../../assets/img/img25.png");
+    background-image: url("../../assets/img/img25.webp");
 }
 
 .img26{
-    background-image: url("../../assets/img/img26.png");
+    background-image: url("../../assets/img/img26.webp");
 }
 
 .img27{
-    background-image: url("../../assets/img/img27.png");
+    background-image: url("../../assets/img/img27.webp");
 }
 
 .img28{
-    background-image: url("../../assets/img/img28.png");
+    background-image: url("../../assets/img/img28.webp");
 }
 
 .img29{
-    background-image: url("../../assets/img/img29.png");
+    background-image: url("../../assets/img/img29.webp");
 }
 
 .img30{
-    background-image: url("../../assets/img/img30.png");
+    background-image: url("../../assets/img/img30.webp");
 }
 
 
@@ -489,6 +535,6 @@
 }
 
 .max-width{
-    max-width: 1750px;
+    max-width: 1500px!important;
     margin: auto;
 }
