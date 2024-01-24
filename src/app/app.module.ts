@@ -6,10 +6,14 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CurrencyPipe, DatePipe, TitleCasePipe } from '@angular/common';
+import { HomeComponent } from './home/home.component';
+import { ManekiComponent } from './maneki/maneki.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    ManekiComponent
   ],
   imports: [
     BrowserModule,

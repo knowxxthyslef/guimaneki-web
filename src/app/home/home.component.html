@@ -1,0 +1,38 @@
+<div class="header">
+    <div class="container">
+        <img src="assets/images/delete-logo.png" class="logo">
+        <img src="assets/images/icons/menu.svg" class="menu-button" (click)="toggleClass()" style="cursor: pointer;"/>        
+    </div>
+</div>
+
+<div [ngClass]="{ 'menu-container-active': showMenu, 'menu-container': !showMenu }">
+    
+
+    <div class="menu-button-container">
+        <img src="assets/images/icons/close.svg" class="menu-button-position" (click)="toggleClass()"/> 
+        <img src="assets/images/delete-logo.png" class="menu-logo">
+    </div>
+    
+
+    <div [ngClass]="{ 'menu-container-button-active': showMenuButton, 'menu-container-button': !showMenuButton }">
+        <a href="#" class="options">
+            <strong>WORKS</strong>
+        </a>
+        <a href="#" class="options">
+            <strong>COLORS</strong>
+        </a>
+        <a href="#" class="options">
+            <strong>EDICION</strong>
+        </a>
+        <a href="#" class="options">
+            <strong>COMERCIALES</strong>
+        </a>
+        <a href="#" class="options">
+            <strong>CINE/TV</strong>
+        </a>        
+    </div>
+</div>
+
+<div [ngClass]="{ 'shadow-active': showMenu, 'shadow-inactive': !showMenu }" (click)="toggleClass()"></div>
+
+<router-outlet name="menu"></router-outlet>

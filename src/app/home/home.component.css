@@ -1,0 +1,120 @@
+.menu-button-container {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    z-index: 12;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    position: relative;
+    background: #000000;
+    padding-top: 40px;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: #000000;
+}
+.header .container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+.menu-button {
+    width: 30px;
+    height: 30px;
+}
+
+.logo {
+    width: 45px;  
+}
+
+.menu-button-position {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+.menu-logo {
+    width: 90px;
+    height: 'auto';
+    margin-top: 30px;
+    margin-top: 40px;
+}
+
+.menu-container {
+    z-index: 11;
+    background-color: #000000;
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -100%;
+}
+
+.menu-container-active {
+    z-index: 11;
+    background-color: #000000;
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu-container-button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 11;
+    position: relative;
+    transform: translateY(-110%);
+}
+
+.menu-container-button-active {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 11;
+    position: relative;
+    transform: translateY(0);
+}
+
+.menu-container-button .options,
+.menu-container-button-active .options{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.shadow-active {
+    background-color: #ff000077;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.shadow-inactive {
+    background-color: #ff000000;
+    display: inline;
+    opacity: 0;
+    z-index: 0;
+    scale: 2;
+}

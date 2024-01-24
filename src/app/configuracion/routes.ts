@@ -1,3 +1,5 @@
+import { HomeComponent } from '../home/home.component';
+import { ManekiComponent } from '../maneki/maneki.component';
 import { NAV } from './global';
 import { Routes } from '@angular/router';
 
@@ -6,12 +8,13 @@ import { Routes } from '@angular/router';
 export const appRoutes: Routes = [
   {
     path: '',
-    loadChildren: () => import('src/app/maneki/maneki.module').then(m => m.ManekiModule)
+    component: HomeComponent,
+    children: [{
+      path: '',
+      component: ManekiComponent,
+      outlet: 'menu',
+    }]
   },
- /*  {
-    path: 'home',
-    loadChildren: () => import('src/app/smns/autorizacion/autorizacion.module').then(m => m.AutorizacionModule)
-  }, */
   {
     path: '**',
     redirectTo: NAV.login
